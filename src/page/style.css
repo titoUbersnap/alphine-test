@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.frame {
+    height: 720px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    background-color: salmon;
+}
+
+#webar {
+    padding-bottom: 16px;
+    display: flex;
+    gap: 16px;
+    align-items: flex-end;
+    height: 600px;
+    width: 100%;
+    background-color: lightgreen;
+}
+
+.button-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.effect {
+    margin-left: 16px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: lightseagreen;
+}
