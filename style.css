@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.frame {
+    height: 1000px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: salmon;
+}
+
+#deepar-canvas {
+    padding-bottom: 16px;
+    display: flex;
+    gap: 16px;
+    align-items: flex-end;
+    height: 640px;
+    width: 480px;
+    background-color: lightgreen;
+}
+
+.button-container {
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.effect-container {
+    display: flex;
+    gap: 18px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 80%;
+}
+
+.effect {
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
