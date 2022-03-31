@@ -74,3 +74,11 @@ let thumbnails = [
 function setEffect(effect) {
     return deepAR.switchEffect(0, 'slot', effect);
 }
+
+function recordHandler() {
+    return;
+}
+
+function shotHandler() {
+    return;
+}

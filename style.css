@@ -4,8 +4,8 @@
 }
 
 .frame {
-    height: 1000px;
-    width: auto;
+    aspect-ratio: 3/4;
+    width: 480;
     display: flex;
     flex-direction: column;
     background-color: salmon;
@@ -16,26 +16,34 @@
     display: flex;
     gap: 16px;
     align-items: flex-end;
-    height: 640px;
-    width: 480px;
+    aspect-ratio: 3/4;
+    width: 100%;
     background-color: lightgreen;
 }
 
 .button-container {
     position: relative;
+    padding: 16px;
     flex: 1;
     display: flex;
-    flex-direction: column;
+    gap: 48px;
     align-items: center;
     justify-content: center;
     background-color: black;
 }
 
-.button {
+.shot-button {
     width: 80px;
     height: 80px;
     border-radius: 50%;
     background-color: white;
+}
+
+.record-button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(255, 79, 79);
 }
 
 .effect-container {
